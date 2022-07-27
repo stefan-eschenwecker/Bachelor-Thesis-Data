@@ -2,7 +2,7 @@
 
 This repository makes the data used in the bachelor thesis publicly available. 
 It provides access both to the raw and the processed texts, including their corresponding metadata.
-The latter built the foundation for the locally estimated GloVe model.
+The latter built the foundation for the locally estimated GloVe model. Additionally, the sources for the public opinion figure are listed at the bottom of the page.
 
 
 Sources according to the corresponding ID:
@@ -67,3 +67,30 @@ https://www.eduskunta.fi/FI/search/Sivut/Vaskiresults.aspx#Default=%7B%22k%22%3A
 
 2584-2760: Sweden: Debates included: 41/2021-22, 51/2021-22, 59/2021-22, 66/2021-22, 67/2021-22, 82/2021-22, 114/2021-22, 116/2021-22
 https://www.riksdagen.se/sv/dokument-lagar/?doktyp=prot&q=&st=2&sort=datum&sortorder=desc&p=1
+
+
+Public Opinion:
+
+
+Ireland: Cunningham, Kevin. The Russian Invasion of Ukraine, 09.05.2022. 
+https://analysis.irelandthinks.ie/the-russian-invasion-of-ukraine
+(retrieved: 27.07.2022)
+
+Sweden: Sjöström, Torbjörn. Clear majority for NATO, 16.05.2022.
+https://novus.se/egnaundersokningar-arkiv/klar-majoritet-for-nato/
+(retrieved: 27.07.2022)
+
+Finland: Kinnunen, Pekka. Yle survey: NATO membership has solid support among Finns - 76 percent want Finland to join NATO, 09.05.2022.
+https://yle.fi/uutiset/3-12436782
+(retrieved: 27.07.2022)
+
+MTV Uutiset. MTV survey: 68 percent of Finns support NATO membership - Russia's countermeasures are worrying, 11.04.2022.
+https://www.mtvuutiset.fi/artikkeli/mtv-n-kysely-nato-jasenyytta-kannattaa-68-prosenttia-suomalaisista/8400808#gs.7l4jrc
+(retrieved: 27.07.2022)
+
+
+
+
+
+
+
