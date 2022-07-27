@@ -13,21 +13,27 @@ Government Reports:
 1:  Finland: Report on Finland's Accession to the North Atlantic Treaty Organization - 15.05.2022
 https://valtioneuvosto.fi/en/-/10616/report-on-finland-s-accession-to-the-north-atlantic-treaty-organization
 (retrieved: 27.07.2022)
+
 2: Finland: Government Report on Changes in the Security Environment - 13.04.2022
 https://julkaisut.valtioneuvosto.fi/handle/10024/164002
 (retrieved: 27.07.2022)
+
 3: Finland: Government's Defence Report - 09.09.2021
 https://julkaisut.valtioneuvosto.fi/handle/10024/163407
 (retrieved: 27.07.2022)
+
 4: Sweden: Main Elements of the Government Bill Totalförsvaret 2021-2025 - 15.12.2020
 https://www.government.se/49648a/globalassets/government/dokument/forsvarsdepartementet/ip-2021-2025/main-elements-of-the-government-bill-totalforsvaret-20212025.pdf
 (retrieved: 27.07.2022)
+
 5: Sweden: Deterioration of the Security Environment - Implications for Sweden - 13.05.2022
 https://www.government.se/49d7dd/contentassets/05ffb51ba6404a459d7ee45c98e87a83/deterioration-of-the-security-environment---inplications-for-sweden-ds-20228
 (retrieved: 27.07.2022)
+
 6: Ireland: White Paper on Defence: Update 2019 - 12.12.2019
 https://www.gov.ie/en/publication/a519cf-white-paper-on-defence-update-2019/
 (retrieved: 27.07.2022)
+
 7: Ireland: Report of the Commission on the Defence Forces - 09.02.2022
 https://www.gov.ie/en/publication/eb4c0-report-of-the-commission-on-defence-forces/
 (retrieved: 27.07.2022)
@@ -40,8 +46,10 @@ Date of Download: 12.06.2022
 
 8-406: Ireland: The Irish Times
 https://www.irishtimes.com/
+
 407-1173: Finland: Yle News
 https://yle.fi/news
+
 1174-1952: Sweden: Göteborgs-Posten
 https://www.gp.se/
 
