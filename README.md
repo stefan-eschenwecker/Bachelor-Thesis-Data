@@ -82,9 +82,7 @@ https://novus.se/egnaundersokningar-arkiv/klar-majoritet-for-nato/
 
 Finland: Kinnunen, Pekka. Yle survey: NATO membership has solid support among Finns - 76 percent want Finland to join NATO, 09.05.2022.
 https://yle.fi/uutiset/3-12436782
-(retrieved: 27.07.2022)
-
-MTV Uutiset. MTV survey: 68 percent of Finns support NATO membership - Russia's countermeasures are worrying, 11.04.2022.
+(retrieved: 27.07.2022); MTV Uutiset. MTV survey: 68 percent of Finns support NATO membership - Russia's countermeasures are worrying, 11.04.2022.
 https://www.mtvuutiset.fi/artikkeli/mtv-n-kysely-nato-jasenyytta-kannattaa-68-prosenttia-suomalaisista/8400808#gs.7l4jrc
 (retrieved: 27.07.2022)
 
