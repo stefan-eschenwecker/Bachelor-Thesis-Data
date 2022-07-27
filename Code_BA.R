@@ -57,6 +57,8 @@ library(writexl)
 
 ParlSpeeches <- read_rds("ParlSpeeches.RDS")
 
+# Country-specific repetition only for NNS-Ratio-Plot
+
 # IRLSpeeches <- ParlSpeeches %>%
 #     filter(Country == "Ireland")
 #
@@ -82,6 +84,9 @@ ParlCorpus <- corpus(ParlSpeeches,
   docid_field = "ID",
   text_field = "Text"
 )
+
+# Country-specific repetition only for NNS-Ratio-Plot
+
 # IRLCorpus <- corpus(IRLSpeeches,
 #                     docid_field = "ID",
 #                     text_field = "Text")
@@ -104,6 +109,8 @@ InitTokens <- tokens(ParlCorpus) %>%
     "also", "however", "even", "us", "say",
     "said", "one", "think", "mr", "like"
   ))
+
+# Country-specific repetition only for NNS-Ratio-Plot
 
 # InitTokens <- tokens(IRLCorpus) %>%
 #     tokens_remove(stopwords(language = "en")) %>%
@@ -148,7 +155,8 @@ TokensFCM <- fcm(InitTokens,
   tri = FALSE
 ) # if TRUE only returns upper triangle
 
-# estimate GloVe model
+
+# estimate local GloVe model
 # GloVe <- GlobalVectors$new(rank = 300,
 #                            x_max = 10,
 #                            learning_rate = 0.05)
@@ -230,11 +238,6 @@ tail(ParlDEM@features)
 
 #########################
 
-# # average over document embeddings
-#
-# # single corpus-wide embeddings of "neutrality, nonalignment,nato"
-# NeutNonaNatoEmbed <- colMeans(ParlDEM)
-#
 # group specific embeddings - average within party
 # PartyEmbed <- dem_group(ParlDEM,
 #                         groups = interaction(ParlDEM@docvars$Affiliation,
@@ -389,6 +392,8 @@ flextable(COS_Party_Invasion) %>%
 #                                  permute = T,
 #                                  num_bootstraps = 100,
 #                                  num_permutations = 100)
+
+# computed multiple times for country-specific words
 
 # IRLNNSRatio <- NNSRatio
 # saveRDS(IRLNNSRatio, file = "IRLNNSRatio.rds")
@@ -825,19 +830,3 @@ ggplot(PublicOpinionNoIreland, aes(
   geom_line(aes(color = Meinung), size = 1.2) +
   facet_wrap(vars(Country), ncol = 1, scales = "free_y") +
   theme_gdocs(base_size = 14)
-
-# plotting Ireland
-PublicOpinionIreland <- PublicOpinion %>%
-  filter(Country == "Irland")
-
-ggplot(PublicOpinionIreland) +
-  aes(x = Meinung, y = Prozent, fill = Meinung) +
-  geom_col() +
-  xlab("Mrz") +
-  ggtitle("Irland") +
-  theme_gdocs(base_size = 14) +
-  theme(
-    axis.text.x = element_blank(),
-    plot.title = element_text(size = 14),
-    legend.position = "none"
-  )
